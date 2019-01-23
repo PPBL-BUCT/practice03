@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>01</title>
+
+<script>
+var count = 0;
+function countPlus(){
+	count++;
+	$("#count").val("我被点击"+count+"次");
+}
+</script>
+</head>
+<!--
+在自己的HTML页面中创建一个button
+为button绑定一个js的onclick事件
+当点击button时，页面下方显示“我被点击1次”，再次点击，显示“我被点击2次”等，实现计数功能。
+把做好的页面保存为01.html，提交到自己的文件夹
+-->
+
+<body>
+	<script src="http://libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
+
+	<button onclick="countPlus();">点击计数</button>
+	<input id = "count" type="text" value="" readonly>
+</body>
+</html>
