@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title></title>
+    <style type="text/css">
+    .container {
+        width: 100%;
+        text-align: center;
+        color: red;
+    }
+
+    .first-text {
+        font-size: smaller;
+        color: blue;
+    }
+
+    .second-text {
+        font-size: larger;
+    }
+
+    .img {
+        width: 700px;
+    }
+    </style>
+    <script type="text/javascript">
+    var i = 0;
+    function btn() {
+    	// alert(++i);
+        document.getElementById('lable').innerText=++i;
+    }
+    </script>
+</head>
+
+<body class="container">
+    <div class="first-text">
+        <text>一段文字</text>
+    </div>
+    <img src="imgs/school.jpg">
+    <div class="second-text">
+        <text>第二段文字</text>
+    </div>
+    <div>
+        <button onclick="btn()">按钮</button>
+    </div>
+    <div style="color: black;">
+    	<label id="lable"></label>
+    </div>
+</body>
+
+</html>
