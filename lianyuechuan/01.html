@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  div{text-align:center}
+  h2{color:gray}
+  #cul{text-align:bottom;color:red;font-size:3.75em}
+  </style>
+  <meta charset="utf-8">
+</head>
+<body>
+  
+  <div>
+  <h2>请点击这个按钮进行计数</h2>
+  <form action="">
+  <input type="button" onclick="count()" value="点击计数">
+  </form>
+  <p id="cul">您已点击按钮0次</p>
+  </div>
+  <script>
+  var a =1;
+  function count()
+  {
+  x=document.getElementById("cul") ;
+  x.innerHTML="您已点击按钮"+ a++ +"次";
+  
+  }
+  </script>
+</body>
+</html>

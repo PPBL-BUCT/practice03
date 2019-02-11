@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+    function up()
+    {
+        var x=document.getElementById("x");
+        x.value=parseInt(x.value)+1;
+    }
+    </script>
+</head>
+<body>
+    <input type="button" value="点我计数" onclick="up()">
+    我被点击<input id="x" type="text" value="0">次
+</body>
+</html>
