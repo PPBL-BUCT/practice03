@@ -1,0 +1,24 @@
+<html>
+<body>
+<body bgcolor=#A6B3FF>
+<h1 style="font-family:verdana";color:#584B00；>Can you hear me？</h1>
+
+<img src="img/timg.jpg"  width="304" height="199"/>
+
+<p style="font-family:arial;color:#796400;font-size:25px;">Absolutely</p>
+ <div>
+  <h2>计数按钮</h2>
+  <form action="">
+  <input type="button" onclick="count()" value="点击计数">
+  </form>
+  <p id="cul">您已点击按钮0次</p>
+  </div>
+  <script>
+  var a =1;
+  function count()
+  {
+  x=document.getElementById("cul") ;
+  x.innerHTML="您已点击按钮"+ a++ +"次"; }
+  </script>
+</body>
+</html>
